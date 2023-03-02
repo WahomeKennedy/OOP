@@ -1,7 +1,4 @@
-from Course import Course
-id = {
-    1: 20000,
-    2: 10000,
-    3: 13000,
-    4: 23500
-}
+class Loan:
+    def __init__(self, id, loan_amount):
+        self.id = id
+        self.loan_amount = loan_amount
